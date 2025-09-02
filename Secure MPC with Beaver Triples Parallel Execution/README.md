@@ -40,14 +40,16 @@ It demonstrates **parallel secure multiplications** across multiple parties usin
 Open **4 terminals** and run the parties in the following order:
 
 ```bash
-# Terminal 1 (Helper)
-python p2_helper.py
 
-# Terminal 2 (P0)
+
+# Terminal 1 (P0)
 python p0.py
 
-# Terminal 3 (P1)
+# Terminal 2 (P1)
 python p1.py
+
+# Terminal 3 (Helper)
+python p2_helper.py
 
 # Terminal 4 (Client)
 python p3_client.py
