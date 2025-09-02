@@ -51,8 +51,8 @@ Open **four terminal windows** (for P0, P1, P2, and P3).
    ```bash
    python3 p0.py
    python3 p1.py
-   python3 p2_helper.py
    python3 p3_client.py
+   python3 p2_helper.py
 
 
 Example Output
